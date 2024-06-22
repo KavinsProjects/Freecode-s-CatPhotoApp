@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Photo app</title>
+</head>
+<body>
+    <h1>CatPhotoapp</h1>
+    <h1>Car Photos</h1>
+    
+    <!--TO Add Link -->
+    <p> See more <a href="">photos in </a>  our gallery</p>
+
+    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" title="CatPhoto">
+
+    <h3>Cat List</h3>
+
+    <h3>Things cats love:<h3>
+    <ul>
+        <li>Cat nip</li>
+        <li>laser pointers</li>
+        <li>lasagna</li>
+    </ul>
+<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"
+title="cats love lasagna">
+<h3>Top 3 things cats hate:</h3>
+
+1. flea treatment <br>
+2. thunder<br>
+3.other cats<br>
+
+<img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg"
+title="cats hate other cats.">
+
+<h3>Cat Form</h3>
+
+<form>
+
+    <fieldset>
+        <legend>Is your cat an indoor or outdoor cat?</legend>
+        <label>
+            <input type="radio" name="cat_location" value="indoor" required> Indoor
+        </label>
+        <label>
+            <input type="radio" name="cat_location" value="outdoor"> Outdoor
+        </label>
+    </fieldset>
+
+    <!-- Cat's Personality Checkboxes -->
+    <fieldset>
+        <legend>What's your cat's personality?</legend>
+        <label>
+            <input type="checkbox" name="personality" value="loving"> Loving
+        </label>
+        <label>
+            <input type="checkbox" name="personality" value="lazy"> Lazy
+        </label>
+        <label>
+            <input type="checkbox" name="personality" value="energetic"> Energetic
+        </label>
+    </fieldset>
+
+    <!-- Cat Photo URL Text Input -->
+    <label>
+        Cat photo URL:
+        <input type="url" name="cat_photo" placeholder="cat photo URL">
+    </label>
+    <br><br>
+
+    <!-- Submit Button -->
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
